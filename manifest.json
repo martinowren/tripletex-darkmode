@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Darkmode for tripletex.no",
+	"version": "0.1.0",
+	"description": "Utvidelse som gjør tripletex.no darkmode",
+	"permissions": ["storage", "tabs", "activeTab", "https://tripletex.no/*"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"browser_action": {
+		"default_popup": "popup.html"
+	}
+}

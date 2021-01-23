@@ -1,0 +1,51 @@
+:root {
+	--darkmode-fiken-dark: #1f2937;
+	--darkmode-fiken-dark-dark: #111826;
+	--darkmode-fiken-dark-lighter: #374151;
+	--darkmode-fiken-dark-lighter-light: #4b5563;
+
+	--darkmode-fiken-text: #ffffff;
+	--darkmode-fiken-text-dark: #ffffff80;
+	--darkmode-fiken-text-darker: #ffffff60;
+}
+
+.tlx-space-hours {
+	--tlx-theme-main-color: #064e3b !important;
+	--tlx-theme-icon-color: #064e3b !important;
+	--tlx-theme-link-color: #047857 !important;
+	--tlx-theme-button-color: #047857 !important;
+	--tlx-theme-pastel-color: #111827 !important;
+	--tlx-theme-active-tab-color: #12787d;
+	--tlx-theme-light-color: rgba(43, 154, 156, 0.1);
+	--tlx-theme-lighter-color: rgba(43, 154, 156, 0.05);
+	--tlx-theme-dark-color: #dff0f0;
+	--tlx-theme-darker-color: #d5ebeb;
+}
+a,
+p,
+span,
+.employee-picture,
+input,
+td {
+	color: #ffffff80 !important;
+}
+body,
+.ui-tabs-panel.ui-widget-content {
+	background-color: #111827 !important;
+}
+
+.tmdl-layout__inset,
+.contentTable div.orderLineHeaderHack,
+.contentTable .table-row--sub-header td,
+.contentTable th,
+.section {
+	background-color: #1f2937 !important;
+}
+
+table.contentTable {
+	background-color: #1f2937 !important;
+}
+
+table.contentTable .ui-widget-header {
+	background-color: #1f2937 !important;
+}
